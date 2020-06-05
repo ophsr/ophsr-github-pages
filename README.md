@@ -1,9 +1,14 @@
 # Meu Site e Portfolio
 
-[https://ophsr.github.io/site/](https://ophsr.github.io/site/)
+> GitHub Pages: [https://ophsr.github.io/site/](https://ophsr.github.io/site/)
 
->Neste site apresento meu portfolio e meus contatos.
+>Portfolio, contatos, habilidades, formação, conquistas.
 
->Site feito em Bootstrap, FontAwesome, Jquery, JS, HTML e CSS
+>Site feito com base em:
+* Bootstrap
+* FontAwesome
+* Devicon
+* Jquery
+* JS
 
 >Template de base: [Resume]( https://github.com/BlackrockDigital/startbootstrap-resume)
