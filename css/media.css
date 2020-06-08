@@ -63,7 +63,7 @@
 
 @media(max-width: 616px) {
     .subheading.display-flex.mb-5 {
-        margin: 10px 0px 10px 0;
+        margin: 10px 0px 30px 0px !important;
     }
     .subheading.display-flex.mb-5 a {
         display: flex;
