@@ -1,3 +1,23 @@
+//Numero aleatório
+function getRandomNumber() {
+    return Math.floor(Math.random() * 2);
+}
+//Alterando cor da pagina
+function setRandomColor(numberColor) {
+    if (numberColor == 1) {
+        document.documentElement.style.setProperty('--primary-color-one', '#6BC1FF');
+        document.documentElement.style.setProperty('--primary-color-two', '#108DE5');
+        document.documentElement.style.setProperty('--primary-color-tree', '#1471B5');
+        document.documentElement.style.setProperty('--primary-color-four', '#0B3F63');
+    } else {
+        document.documentElement.style.setProperty('--primary-color-one', '#6BFFA6');
+        document.documentElement.style.setProperty('--primary-color-two', '#10E565');
+        document.documentElement.style.setProperty('--primary-color-tree', '#14B554');
+        document.documentElement.style.setProperty('--primary-color-four', '#0B632E');
+    }
+}
+setRandomColor(getRandomNumber())
+
 function validaEmail(field) {
     usuario = field.value.substring(0, field.value.indexOf("@"));
     dominio = field.value.substring(field.value.indexOf("@") + 1, field.value.length);
