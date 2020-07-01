@@ -1,6 +1,6 @@
 # Meu Site e Portfolio
 
-> GitHub Pages: [https://ophsr.github.io/site/](https://ophsr.github.io/site/)
+> GitHub Pages: [https://ophsr.github.io](https://ophsr.github.io)
 
 >Portfolio, contatos, habilidades, formação, conquistas.
 
