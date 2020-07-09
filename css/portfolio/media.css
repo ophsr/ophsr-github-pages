@@ -1,0 +1,35 @@
+@media(max-width: 616px) {
+    .carousel-control-prev {
+        width: 38px;
+    }
+    .carousel-control-next {
+        width: 38px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-control-prev {
+        width: 80px;
+    }
+    .carousel-control-next {
+        width: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-control-prev {
+        width: 90px;
+    }
+    .carousel-control-next {
+        width: 90px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .carousel-control-prev {
+        width: 180px;
+    }
+    .carousel-control-next {
+        width: 180px;
+    }
+}

@@ -12,7 +12,7 @@
     <title>Pedro Rodrigues - Site e Portfolio</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
@@ -27,46 +27,119 @@
     <link href="css/portfolio/portfolio.css" rel="stylesheet">
     <link href="css/portfolio/media.css" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </head>
 
-<body id="body">
+<body>
     <div class="splashScreen">
         <img src="assets/img/LogoAnimation.gif" alt="" height="300">
     </div>
-    <header class="display-none">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+    <div class="page display-none ">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo_300.png" width="30" height="30" class="d-inline-block align-top" alt=""> Pedro Rodrigues
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><i class="fas fa-bars" style="color: var(--primary-color-tree)";></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item m-2">
+                            <a href="/index.html">
+                                <i class="fas fa-home"></i> Votar para pagina inicial!
+                            </a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="https://www.linkedin.com/in/ophsr/" target="_blank" title="Meu Linkedin">
+                                <i class="fab fa-linkedin-in fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="https://github.com/ophsr" target="_blank" title="Meu GitHub">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55061983817104" target="_blank" title="Meu WhatsApp">
+                                <i class="fab fa-whatsapp fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="carouselControls" class="carousel slide flex" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="mx-4 card-deck">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/img/portfolio-image-carrosel-meu-site.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Meu site</h5>
+                                    <p class="card-text">Este para apresentação de curriculo e portfolio.</p>
+                                    <p class="card-text"><small class="text-muted">Ultimo update 09 de junlho de 2020</small></p>
+                                </div>
+                            </div>
+                            <div class="card disable">
+                                <img class="card-img-top" src="assets/img/404.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Em construção</h5>
+                                    <p class="card-text">Em construção</p>
+                                    <p class="card-text"><small class="text-muted">Em construção</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="mx-4 card-deck">
+                            <div class="card disable">
+                                <img class="card-img-top" src="assets/img/404.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Em construção</h5>
+                                    <p class="card-text">Em construção</p>
+                                    <p class="card-text"><small class="text-muted">Em construção</small></p>
+                                </div>
+                            </div>
+                            <div class="card disable">
+                                <img class="card-img-top" src="assets/img/404.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Em construção</h5>
+                                    <p class="card-text">Em construção</p>
+                                    <p class="card-text"><small class="text-muted">Em construção</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="page display-none">
-
+            <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                <span class="p-1" aria-hidden="true"><i class="fas fa-arrow-left fa-2x"></i></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                <span class="p-1" aria-hidden="true"><i class="fas fa-arrow-right fa-2x"></i></span>
+                <span class="sr-only">Proximo</span>
+            </a>
+        </div>
+        <div class="footer mt-1 fixed-bottom d-flex justify-content-center  ">
+            <p>Desenvolvido por Pedro Rodrigues</p>
+        </div>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/resume.js"></script>
     <script src="js/Splash.js"></script>
+
 
 </body>
 

@@ -112,6 +112,21 @@ section.resume-section .resume-item .resume-date {
     outline-style: none;
 }
 
+.portfolio-button {
+    font-size: 1.25rem;
+    display: block;
+    letter-spacing: .2rem;
+    line-height: 1.5;
+    padding: .5rem 1rem;
+    width: 100%;
+    background: var(--primary-color-tree);
+    color: #fff;
+}
+
+.portfolio-button:hover {
+    background: var(--primary-color-four);
+}
+
 .p-1.dropdown-item.active {
     background-color: var(--gray-color-two);
 }

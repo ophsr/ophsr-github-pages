@@ -1,14 +1,14 @@
 const splash = document.querySelector('.splashScreen');
 const page = document.querySelector('.page');
-const header = document.querySelector("header");
-const body = document.querySelector("#body");
+const body = document.getElementsByTagName('body')[0];
+
+
 document.addEventListener('DOMContentLoaded', (e) => {
 
     // altera cor do body para white(branco)
-    document.getElementById("body").style.backgroundColor = "white";
+    body.style.backgroundColor = "white";
     //retira padding do body
-    document.getElementById("body").style.padding = "0px";
-
+    body.style.padding = "0px";
 
     //adiciona classe 'display-none' depois de 3960ms
     setTimeout(() => {
@@ -18,9 +18,6 @@ document.addEventListener('DOMContentLoaded', (e) => {
     //remove classe 'display-none' depois de 3961ms
     setTimeout(() => {
         page.classList.remove('display-none');
-        header.classList.remove('display-none');
-
-        // document.getElementById("body").style.backgroundImage = "url('../assets/img/ImageCSharp.png')";
-        // document.getElementById("body").style. = "60%";
+        body.classList.add('background-body')
     }, 3961);
 })
